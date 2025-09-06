@@ -1,0 +1,54 @@
+---
+layout: default
+title: Career Growth Insights for Young Professionals in SEA
+---
+
+<section class="max-w-6xl mx-auto px-4 pt-12 pb-6">
+  <h1 class="text-4xl font-bold">Insights & Stories on Professional Development</h1>
+  <p class="text-gray-700 mt-2 max-w-2xl">Practical articles on presentation, Excel, and workplace success.</p>
+</section>
+
+<section class="max-w-6xl mx-auto px-4 pb-16 grid md:grid-cols-[2fr,1fr] gap-10">
+  <div class="space-y-6">
+    {% assign posts_list = site.posts | sort: 'date' | reverse %}
+    {% for post in posts_list %}
+      <a href="{{ post.url }}" class="block border rounded p-5 hover:bg-gray-50">
+        <div class="text-xs text-gray-500">{{ post.date | date: "%B %-d, %Y" }}</div>
+        <h2 class="text-xl font-semibold mt-1">{{ post.title }}</h2>
+        {% if post.excerpt %}
+          <p class="mt-2 text-gray-700">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+
+  <aside class="space-y-6">
+    <div>
+      <label class="text-sm font-medium">Search</label>
+      <input type="search" placeholder="Type to filter…"
+             class="mt-2 w-full border rounded px-3 py-2"
+             oninput="filterPosts(this.value)">
+    </div>
+    <div>
+      <h3 class="font-semibold mb-2">Subscribe</h3>
+      <form action="#" method="post" class="flex gap-2">
+        <input type="email" placeholder="Your email" class="border rounded px-3 py-2 w-full" required>
+        <button class="px-4 py-2 rounded bg-teal-600 text-white">Join</button>
+      </form>
+    </div>
+    <div class="text-sm text-gray-600">
+      <a href="https://academy.breadandletters.com" class="underline">See upcoming classes →</a>
+    </div>
+  </aside>
+</section>
+
+<script>
+function filterPosts(q){
+  const cards=[...document.querySelectorAll('a.block.border.rounded')];
+  const s=q.toLowerCase();
+  cards.forEach(c=>{
+    const t=c.innerText.toLowerCase();
+    c.style.display=t.includes(s)?'block':'none';
+  });
+}
+</script>

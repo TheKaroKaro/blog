@@ -1,0 +1,9 @@
+title: Bread & Letters · Blog
+description: Career growth insights for young professionals in SEA.
+url: https://blog.breadandletters.com
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+paginate: 0
+permalink: /:categories/:slug/
