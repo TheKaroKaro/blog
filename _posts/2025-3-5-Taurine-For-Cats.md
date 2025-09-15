@@ -1,12 +1,16 @@
 ---
 layout: post
-title: "Taurine for Cats"
-date: 2025-05-3
-categories: [Sourdough]
-subcategory: agricultural
-image: /assets/images/post/sourdough/chemistry/taurine.png
-thumbnail: /assets/images/post/sourdough/chemistry/taurine.png
+title: Taurine For Cats
+author: Crust Crusader
+date: 2025-03-05 17:13:25 +0800
+categories:
+  - general
+  - mineral
+thumbnail: /assets/images/post/general/mineral/taurine.png
+image: /assets/images/post/general/mineral/taurine.png
 ---
+
+This is my first article about Excel, showing how to use Pivot Tables...
 
 # The Marvel of Taurine: The Secret Ingredient for Feline Vitality
 

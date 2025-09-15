@@ -1,0 +1,25 @@
+# _data/team.yml
+members:
+  - name: "Jefri Karo Karo"
+    role: "Lead Writer & Editor"
+    bio: "I specialize in writing articles about workplace skills, productivity, and professional development. My goal is to help young professionals grow their careers."
+    image: "/assets/aboutus/JKK.jpeg"
+    social:
+      linkedin: "https://www.linkedin.com/in/jefrikrama/"
+      twitter: "https://twitter.com/yourprofile"
+      
+  - name: "Another Team Member"
+    role: "Designer & Illustrator"
+    bio: "As a designer, I'm passionate about creating engaging visuals that bring our stories to life. My work focuses on illustrations for articles and web design."
+    image: "/assets/images/team-member-2.jpg"
+    social:
+      linkedin: "https://www.linkedin.com/in/anotherprofile"
+      twitter: ""
+      
+  - name: "Guest Contributor"
+    role: "Freelance Historian"
+    bio: "I contribute articles on history and culture, with a focus on stories from Southeast Asia. I believe that understanding our past is key to navigating our future."
+    image: "/assets/images/team-member-3.jpg"
+    social:
+      linkedin: "https://www.linkedin.com/in/guestprofile"
+      twitter: ""

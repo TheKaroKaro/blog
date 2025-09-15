@@ -1,14 +1,54 @@
-<footer class="border-t mt-16">
-  <div class="max-w-6xl mx-auto px-4 py-10 grid gap-6 md:grid-cols-2">
-    <div>
-      <h4 class="font-semibold mb-2">Stay in the loop</h4>
-      <form action="#" method="post" class="flex gap-2">
-        <input type="email" placeholder="Your email" class="border rounded px-3 py-2 w-full" required>
-        <button class="px-4 py-2 rounded bg-teal-600 text-white">Subscribe</button>
-      </form>
+<footer class="bg-gray-800 text-white py-12">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-bold text-xl mb-4 flex items-center">
+          <span class="mr-1">🍞</span> {{ site.title }}
+        </h3>
+        <p class="text-gray-400 mb-4">Insights, tips and stories across South East Asia.</p>
+        <div class="flex gap-3">
+          {% if site.social.linkedin %}
+          <a href="{{ site.social.linkedin }}" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+          {% endif %}
+          {% if site.social.instagram %}
+          <a href="{{ site.social.instagram }}" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+          {% endif %}
+          {% if site.social.twitter %}
+          <a href="{{ site.social.twitter }}" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+          {% endif %}
+        </div>
+      </div>
+      
+      <div>
+        <h4 class="font-semibold mb-4">Categories</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="/professional" class="hover:text-white">Professional</a></li>
+          <li><a href="/general" class="hover:text-white">General</a></li>
+          <li><a href="/stories" class="hover:text-white">Stories</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h4 class="font-semibold mb-4">Links</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="{{ site.data.settings.academy_url }}" class="hover:text-white">Our Academy</a></li>
+          <li><a href="{{ site.baseurl }}/about/" class="hover:text-white">About Us</a></li>
+          <li><a href="{{ site.data.settings.academy_url }}/privacy" class="hover:text-white">Privacy Policy</a></li>
+          <li><a href="{{ site.data.settings.academy_url }}/terms" class="hover:text-white">Terms of Service</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h4 class="font-semibold mb-4">Contact</h4>
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="mailto:{{ site.email }}" class="hover:text-white">{{ site.email }}</a></li>
+          <li><a href="{{ site.data.settings.academy_url }}/contact" class="hover:text-white">Contact Us</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="text-sm text-gray-600">
-      © {{ "now" | date: "%Y" }} Bread & Letters · Blog
+    
+    <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+      <p>© {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
     </div>
   </div>
 </footer>

@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Tiết Canh: A Traditional Vietnamese Delicacy"
+author: Crust Crusader
 date: 2025-03-10
-categories: [Sourdough]
-subcategory: Cuisine
-image: /assets/images/post/sourdough/cuisine/TiếtCanhATraditionalVietnameseDelicacy.png
-thumbnail: /assets/images/post/sourdough/cuisine/TiếtCanhATraditionalVietnameseDelicacy.png
+categories:
+  - General
+  - Language
+image: /assets/images/post/general/cuisine/TiếtCanhATraditionalVietnameseDelicacy.png
+thumbnail: /assets/images/post/general/cuisine/TiếtCanhATraditionalVietnameseDelicacy.png
 ---
 
 

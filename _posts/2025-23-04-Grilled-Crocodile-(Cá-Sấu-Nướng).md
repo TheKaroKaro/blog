@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Grilled Crocodile (Cá Sấu Nướng)"
+author: Crust Crusader
 date: 2025-04-23
-categories: [Sourdough]
-subcategory: Cuisine
-image: /assets/images/post/sourdough/cuisine/Grilled_Crocodile_(Cá_Sấu_Nướng).png
-thumbnail: /assets/images/post/sourdough/cuisine/Grilled_Crocodile_(Cá_Sấu_Nướng).png
+categories:
+  - general
+  - cuisine
+image: /assets/images/post/general/cuisine/Grilled_Crocodile_(Cá_Sấu_Nướng).png
+thumbnail: /assets/images/post/general/cuisine/Grilled_Crocodile_(Cá_Sấu_Nướng).png
 ---
 # Grilled Crocodile (Cá Sấu Nướng)
 

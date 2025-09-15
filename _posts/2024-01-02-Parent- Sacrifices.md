@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Parent's Sacrifice"
+author: Crust Crusader
 date: 2024-01-02
-categories: [Artisan]  # Add categories here
-image: /assets/images/post/artisan/ParentSacrifice.png
-thumbnail: /assets/images/post/artisan/ParentSacrifice.png
+categories:
+  - stories
+image: /assets/images/post/stories/ParentSacrifice.png
+thumbnail: /assets/images/post/stories/ParentSacrifice.png
 ---
 
 I was having dinner with friends

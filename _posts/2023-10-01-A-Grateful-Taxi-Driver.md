@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "A Grateful Taxi Driver"
+author: Crust Crusader
 date: 2023-10-01
-categories: [Artisan]  # Add categories here
-image: /assets/images/post/artisan/GratefulTaxiDriver.png
-thumbnail: /assets/images/post/artisan/GratefulTaxiDriver.png
+categories:
+  - stories
+image: /assets/images/post/stories/GratefulTaxiDriver.png
+thumbnail: /assets/images/post/stories/GratefulTaxiDriver.png
 ---
 
 I was on my way to the airport
